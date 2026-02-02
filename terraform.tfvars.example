@@ -1,0 +1,17 @@
+# Example terraform.tfvars file
+# Copy this file to terraform.tfvars and update the values
+
+resource_group_name = "my-terraform-rg"
+location = "East US"
+subscription_id = "your-azure-subscription-id"
+environment = "dev"
+default_tags = {
+  "Environment" = "dev"
+  "Project" = "terraform-project"
+  "ManagedBy" = "Terraform"
+}
+
+cluster_name = "example-value"
+location = "example-value"
+environment = "example-value"
+# node_count = "update-this-value"
